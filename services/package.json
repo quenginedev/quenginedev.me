@@ -1,0 +1,14 @@
+{
+  "name": "@portfolio/services",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "awilix": "^7.0.3",
+    "aws-sdk": "^2.1162.0",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.101"
+  }
+}

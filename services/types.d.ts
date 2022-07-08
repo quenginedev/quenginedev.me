@@ -1,0 +1,3 @@
+interface Deps {
+  connect: any
+}
