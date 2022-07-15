@@ -36,7 +36,7 @@
   {/if}
 </div>
 
-<style>
+<style global>
   #view::-webkit-scrollbar {
     @apply w-2 h-2;
   }

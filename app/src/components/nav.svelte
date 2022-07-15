@@ -6,8 +6,8 @@
   <div
       class="max-w-screen-lg w-full flex justify-between items-center bg-primary py-5 md:py-0"
   >
-    <a href="/#summary" class="btn btn-primary text-3xl capitalize rounded">
-      Q<span class="hidden md:block lowercase">uengine</span>.Dev
+    <a href="/#summary" class="btn btn-primary text-3xl rounded">
+      Q<span class="hidden md:block lowercase">uenginedev</span>
     </a>
 
     <div class="relative">
@@ -43,7 +43,7 @@
         </li>
         <li class="btn btn-link"><a href="#work">Work</a></li>
         <li class="btn btn-link"><a href="#contact">Contact</a></li>
-        <li class="btn btn-secondary "><a href="#resume">Resume</a></li>
+        <li class="btn btn-secondary btn-disabled"><a href="#resume">Resume</a></li>
       </ul>
     </div>
   </div>

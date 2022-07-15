@@ -1,14 +1,5 @@
 <script>
-  import {tweened} from "svelte/motion";
-  import {get} from 'svelte/store'
-
   export let isLoading = true;
-  // let topHeight = tweened(.5, {duration: 300});
-  // $: {
-  //   isLoading ?
-  //     topHeight.set(  .5) :
-  //     topHeight.set(  .09)
-  // }
 </script>
 
 <div class="overflow-hidden ">

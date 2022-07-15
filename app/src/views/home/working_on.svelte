@@ -15,7 +15,7 @@
             <div class="w-full bg-base-100 shadow-xl rounded-2xl relative">
               <img
                   src={githubLogo}
-                  alt="Shoes"
+                  alt="Github logo"
                   class="rounded-full w-12 bg-white p-2 border-base-300 border-4 absolute -top-6 -left-6"
                 />
               <div class="card-body items-center text-center flex flex-col justify-between h-full gap-5">

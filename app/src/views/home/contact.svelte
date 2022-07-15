@@ -1,14 +1,11 @@
 <script>
 </script>
 
-<div
-  id="contact"
-  class="hero h-72 mt-12 rounded-t-3xl bg-primary"
->
-  <div class="hero-content text-center">
-    <div class="max-w-md">
+<div class="flex flex-row justify-center">
+  <div class="w-full p-5">
+    <div class="rounded-3xl flex flex-col items-center text-center p-10 text-base-content">
       <h1 class="mb-5 text-5xl font-bold">Get In Touch</h1>
-      <p class="mb-5">
+      <p class="mb-5 max-w-md">
         Although I’m not currently looking for any new opportunities, my inbox
         is always open. Whether you have a question or just want to say hi, I’ll
         try my best to get back to you!
@@ -17,3 +14,4 @@
     </div>
   </div>
 </div>
+
