@@ -3,7 +3,7 @@
 </script>
 
 <div class="overflow-hidden ">
-  <div class="bg-primary h-24 md:h-10 transition-height duration-300 ease-out" class:h-72={isLoading}
+  <div class="bg-primary h-24 md:h-10 transition-height duration-700 ease-out" class:h-72={isLoading}
        class:md:h-72={isLoading}>
   </div>
   <svg

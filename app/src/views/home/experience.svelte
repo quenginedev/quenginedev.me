@@ -12,7 +12,7 @@
     <h1 class="col-span-1 md:col-span-3 text-3xl font-extrabold">
       Were I've worked
     </h1>
-    <div class="w-full text-center flex flex-col gap-2 col-span-1">
+    <div class="w-full text-center flex flex-wrap md:flex-col gap-2 col-span-1">
       {#each placesList as {name}, index}
         <button
             class="capitalize btn"

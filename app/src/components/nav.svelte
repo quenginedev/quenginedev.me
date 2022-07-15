@@ -1,5 +1,9 @@
-<script>
-  let isMobileHidden = true;
+<script lang="ts">
+  import onClickOutside from "../actions/on-click-outside";
+	let isMobileHidden = true;
+	const handleClickOutside = () => {
+    if(!isMobileHidden) isMobileHidden = true;
+  };
 </script>
 
 <div class="w-full flex flex-row justify-center px-5 fixed top-0 z-50 bg-primary">
@@ -7,7 +11,10 @@
       class="max-w-screen-lg w-full flex justify-between items-center bg-primary py-5 md:py-0"
   >
     <a href="/#summary" class="btn btn-primary text-3xl rounded">
-      Q<span class="hidden md:block lowercase">uenginedev</span>
+      Q
+      <span class="hidden md:block lowercase">uenginedev</span>
+      <span class="md:hidden lowercase">.dev</span>
+
     </a>
 
     <div class="relative">
@@ -33,6 +40,8 @@
         >
       </button>
       <ul
+          use:onClickOutside
+          on:trigger={handleClickOutside}
           on:click={()=>isMobileHidden = true}
           class="fixed top-20 right-10 rounded-md font-bold py-2 mt-3 mb-3 px-10 flex flex-col md:flex-row md:static bg-base-100 md:block shadow-2xl"
           class:hidden={isMobileHidden}

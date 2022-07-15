@@ -17,7 +17,8 @@
 </script>
 
 <svelte:head>
-  <title>Q.Dev</title>
+  <title>Quenginedev</title>
+  <meta name="description" content="From unprofessional to white collar" />
 </svelte:head>
 <div
   data-theme={$theme}
