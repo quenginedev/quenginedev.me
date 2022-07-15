@@ -6,7 +6,7 @@
 <section id="about" class="flex justify-center pt-24">
   <div class="max-w-screen-lg w-full p-5 grid grid-cols-1 md:grid-cols-3 gap-5">
     <div class="w-full col-span-1 md:col-span-2 space-y-3">
-      <h1 class="text-3xl font-extrabold">About Me</h1>
+      <p class="text-3xl font-extrabold">About Me</p>
       <p>
         Hello! My name is Ernest and I enjoy creating things that live on both the
         internet and mobile. My interest in software development started back

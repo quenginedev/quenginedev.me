@@ -6,9 +6,9 @@
 <section id="work" class="flex justify-center items-center pt-24">
   <div class="max-w-screen-lg w-full p-5 flex flex-wrap items-center">
     <div class="w-full space-y-3">
-      <h1 class="col-span-1 md:col-span-3 text-3xl font-extrabold">
+      <p class="col-span-1 md:col-span-3 text-3xl font-extrabold">
         Things I've been working on
-      </h1>
+      </p>
       {#await getRecentRepos("quenginedev") then { data: repos }}
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 pt-12">
           {#each repos as repo}

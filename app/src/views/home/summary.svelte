@@ -5,7 +5,7 @@
     <div class="max-w-screen-lg w-full p-5 flex flex-wrap items-center">
         <div class="w-full space-y-3">
             <span class="text-primary font-bold text-lg">Hi, my name is</span>
-            <h1 class="text-7xl font-extrabold">Ernest Hayford</h1>
+            <p class="text-7xl font-extrabold">Ernest Hayford</p>
             <p class="text-lg font-bold">A.K.A <span>Quengine the Developer</span></p>
             <p class="text-4xl">
                 I build apps and services for <span>mobile</span>,
