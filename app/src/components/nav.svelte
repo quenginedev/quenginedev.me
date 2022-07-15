@@ -1,5 +1,7 @@
 <script lang="ts">
   import onClickOutside from "../actions/on-click-outside";
+  import responsive from 'tailwindcss/lib/util/responsive'
+  console.log({ responsive })
 	let isMobileHidden = true;
 	const handleClickOutside = () => {
     if(!isMobileHidden) isMobileHidden = true;

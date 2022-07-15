@@ -31,9 +31,9 @@
       <Nav />
       <Route path="/" component={Home} />
     </Router>
-    <span class="fixed bottom-5 right-5 md:right-10">
-      <ThemeSelector />
-    </span>
+<!--    <span class="fixed bottom-5 right-5 md:right-10">-->
+<!--      <ThemeSelector />-->
+<!--    </span>-->
   {/if}
 </div>
 

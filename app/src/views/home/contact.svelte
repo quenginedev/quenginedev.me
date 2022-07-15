@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="flex flex-row justify-center">
+<div id="contact" class="flex flex-row justify-center">
   <div class="w-full p-5">
     <div class="rounded-3xl flex flex-col items-center text-center p-10 text-base-content">
       <p class="mb-5 text-5xl font-bold">Get In Touch</p>

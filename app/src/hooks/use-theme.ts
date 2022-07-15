@@ -14,13 +14,13 @@ const themes = [
     "cmyk",
     "coffee",
 ]
-const isDark =
-    day().isAfter(day().set('hour', 18)) ||
-    day().isBefore(day().set('hour', 6))
+// const isDark =
+//     day().isAfter(day().set('hour', 18)) ||
+//     day().isBefore(day().set('hour', 6))
 
-const storedTheme = localStorage.getItem('theme')
-const theme = writable(storedTheme || (isDark ? "dark" : "light"))
-// const theme = writable(themes[Math.floor(Math.random() * themes.length)])
+// const storedTheme = localStorage.getItem('theme')
+// const theme = writable(storedTheme || (isDark ? "dark" : "light"))
+const theme = writable('coffee')
 
 const useTheme = () => {
     const setTheme = (selectedTheme: string) => {

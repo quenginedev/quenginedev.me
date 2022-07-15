@@ -2,7 +2,6 @@
   import placesList from "./places-list";
   import {fly} from 'svelte/transition'
   import {cubicInOut} from 'svelte/easing'
-  console.log('null is undefined', null === undefined, typeof null);
   let active = 0;
   $: currentPlace = placesList[active];
 </script>
