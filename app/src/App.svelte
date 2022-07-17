@@ -20,7 +20,6 @@
   <meta name="description" content="Coffee is my fuel and code is what I produce. I build apps and services for mobile, desktop, and the web"/>
   <meta name="keywords" content="quenginedev, portfolio, Engineer, Developer, mobile, web, app, exceptional digital experiences, automated, accessible, human-centered, Simple Dealer, AgroInnova, TypeScript, Vue, Svelte, React, Nodejs, Electron, AWS, Mongodb, Web3"/>
   <meta name="author" content="Ernest Hayford"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <meta name="theme-color" content="#211720"/>
   <meta name="msapplication-navbutton-color" content="#ffffff"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="#211720"/>

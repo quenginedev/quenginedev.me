@@ -18,10 +18,10 @@ export default [
 		url: "https://agroinnovagh.com/",
 		stack: ['React', 'Vue', 'Flutter', 'React Native', 'Node', 'Express', 'MongoDB', 'AWS', 'GCP', 'etc.'],
 		description: [
-			"AkokoMarket, Designed and developed web solution to help farmers and agribusinesses sell their products online both on mobile and web.",
-			"FBS Innova, Lead a team of building realtime scalable backed services for the FBS Innova mobile platform to help smallholder farmers to have access to on demand access to Farmer Business School",
-			"AkokoTakra, Lead in the development of backend service and dashboards for the AkokoTakra platform to help smallholder farmers to keep track of their farm products and their farm activities",
-			"AgroInnova, Shorten development life cycle and provide continuous integration and continuous delivery for all platforms and solutions.",
+			"AkokoMarket: Designed and developed web solution to help farmers and agribusinesses sell their products online both on mobile and web.",
+			"FBS Innova: Lead a team in building realtime scalable backend services for the FBS Innova mobile platform to help smallholder farmers to have on demand access to Farmer Business School",
+			"AkokoTakra: Lead in the development of backend services and dashboards for the AkokoTakra platform which helps smallholder farmers to keep track of their farm products and their farm activities",
+			"AgroInnova: Shorten the development life cycle and provided continuous integration and continuous delivery for all platforms and solutions at AgroInnova.",
 		],
 	},
 	{

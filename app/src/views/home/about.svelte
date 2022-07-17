@@ -9,17 +9,17 @@
       <p class="text-3xl font-extrabold">About Me</p>
       <p>
         Like I mention before, my name is Ernest and I enjoy creating things that live on both the
-        internet and mobile. My interest in software development started back
-        in 2014 when my dad asked me a question whiles playing a video
+        web and mobile. My interest in software development started back
+        in 2014 when my dad asked me a question whiles I was playing a video
         game,
         <br/><q class="font-semibold">
         Wouldn't it be cool to make your own game instead?
       </q>
         <br/>
-        And that's what sparked my interest in developing software.
+        That's what sparked my interest in developing software.
       </p>
       <p>
-        Fast-forward to today, and I've had the privilege of working at a
+        Fast-forward to today, and I've had the privilege of working at
         <span>Security agencies</span>,
         <a href="https://agroinnovagh.com/" target="_blank"
         >Agriculture startups</a

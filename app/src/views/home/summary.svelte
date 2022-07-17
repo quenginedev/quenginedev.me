@@ -13,10 +13,10 @@
             </p>
             <p>
                 I'm a software engineer specializing in building (and occasionally
-                designing) exceptional digital experiences. Currently,
+                designing) exceptional digital experiences.
             </p>
             <p>
-                I’m focused on building automated, accessible, human-centered products
+                Currently, I’m focused on building automated, accessible, and human-centered products
                 at Simple Dealer.
             </p>
         </div>

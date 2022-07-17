@@ -9,7 +9,7 @@
 <section id="experience" class="flex justify-center pt-24">
   <div class="max-w-screen-lg w-full p-5 grid grid-cols-1 md:grid-cols-3 gap-5">
     <p class="col-span-1 md:col-span-3 text-3xl font-extrabold">
-      Were I've worked
+      Where I've worked
     </p>
     <div class="w-full text-center flex flex-wrap md:flex-col gap-2 col-span-1">
       {#each placesList as {name}, index}
