@@ -8,7 +8,7 @@
     <div class="w-full col-span-1 md:col-span-2 space-y-3">
       <p class="text-3xl font-extrabold">About Me</p>
       <p>
-        Hello! My name is Ernest and I enjoy creating things that live on both the
+        Like I mention before, my name is Ernest and I enjoy creating things that live on both the
         internet and mobile. My interest in software development started back
         in 2014 when my dad asked me a question whiles playing a video
         game,
