@@ -3,7 +3,6 @@
   import Nav from "./components/nav.svelte";
   import Home from "./views/home/index.svelte";
   import AnimatedWaves from "./components/animated-waves.svelte";
-  import ThemeSelector from "./components/theme-selector.svelte";
   import useTheme from "./hooks/use-theme";
   import { onMount } from "svelte";
 
@@ -18,7 +17,15 @@
 
 <svelte:head>
   <title>Quenginedev</title>
-  <meta name="description" content="From unprofessional to white collar" />
+  <meta name="description" content="Coffee is my fuel and code is what I produce. I build apps and services for mobile, desktop, and the web"/>
+  <meta name="keywords" content="quenginedev, portfolio, Engineer, Developer, mobile, web, app, exceptional digital experiences, automated, accessible, human-centered, Simple Dealer, AgroInnova, TypeScript, Vue, Svelte, React, Nodejs, Electron, AWS, Mongodb, Web3"/>
+  <meta name="author" content="Ernest Hayford"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="theme-color" content="#211720"/>
+  <meta name="msapplication-navbutton-color" content="#ffffff"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#211720"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-title" content="Quenginedev"/>
 </svelte:head>
 <div
   data-theme={$theme}
@@ -31,9 +38,9 @@
       <Nav />
       <Route path="/" component={Home} />
     </Router>
-    <span class="fixed bottom-5 right-5 md:right-10">
-      <ThemeSelector />
-    </span>
+<!--    <span class="fixed bottom-5 right-5 md:right-10">-->
+<!--      <ThemeSelector />-->
+<!--    </span>-->
   {/if}
 </div>
 
