@@ -5,7 +5,7 @@ const HOSTED_ZONE = 'quenginedev.me'
 export default ({ stack }: { stack: Stack }) => {
   const domainName = stack.stage === 'production' ? HOSTED_ZONE : `${stack.stage}.${HOSTED_ZONE}`
   return new ViteStaticSite(stack, "site", {
-    path: 'app',
+    path: 'portfolio',
     customDomain: {
       hostedZone: HOSTED_ZONE,
       domainName,

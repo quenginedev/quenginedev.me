@@ -1,9 +1,9 @@
 import { StackContext, Api } from "@serverless-stack/resources";
-import siteService from "./services/site-service";
+import portfolioSiteService from "./services/portfolio-site-service";
 
 export default ({ stack }: StackContext) => {
-  const site = siteService({ stack })
+  const portfolioSite = portfolioSiteService({ stack })
   stack.addOutputs({
-    siteEndpoint: site.url
+    siteEndpoint: portfolioSite.url
   })
 }
