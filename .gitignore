@@ -10,6 +10,6 @@
 
 # local env files
 .env*.local
-
+.env
 **/.idea
 **/.vscode
