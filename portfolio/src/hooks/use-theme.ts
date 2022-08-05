@@ -18,9 +18,8 @@ const themes = [
 //     day().isAfter(day().set('hour', 18)) ||
 //     day().isBefore(day().set('hour', 6))
 //
-// const storedTheme = localStorage.getItem('theme')
-// const theme = writable(storedTheme || (isDark ? "dark" : "light"))
-const theme = writable('coffee')
+const storedTheme = localStorage.getItem('theme')
+const theme = writable(storedTheme || "coffee")
 
 const useTheme = () => {
     const setTheme = (selectedTheme: string) => {

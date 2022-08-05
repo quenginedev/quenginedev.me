@@ -1060,6 +1060,11 @@ svelte-hmr@^0.14.12:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.12.tgz#a127aec02f1896500b10148b2d4d21ddde39973f"
   integrity sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==
 
+svelte-material-icons@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/svelte-material-icons/-/svelte-material-icons-2.0.4.tgz#e616057d860f86687155f4b3b6cd72c0c6bb9814"
+  integrity sha512-P3TxvZ6ZesGKknxn61GF5PAArB+w5aiBNC6ez/yEJG2bFbzRsAZj4+Vt466uoZSeCPGkEzn20u9jBPUoEcfxiA==
+
 svelte-navigator@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/svelte-navigator/-/svelte-navigator-3.1.6.tgz#f15d5eae3e0fb26555a30b0129b786547842fd73"
